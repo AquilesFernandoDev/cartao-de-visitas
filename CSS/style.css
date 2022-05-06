@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+}
+
+.card {
+  width: 400px;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 1px 20px;
+  background: url(../assets/background.png) no-repeat;
+  background-size: cover;
+  margin: auto;
+  margin-top: 10%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: nasa;
+}
+
+.instagram {
+  list-style-image: url(../assets/Insta.png);
+  margin: 5px;
+}
+.linkedin {
+  list-style-image: url(../assets/Linkedin.png);
+  margin: 5px;
+}
+.youtube {
+  list-style-image: url(../assets/Youtube.png);
+  margin: 5px;
+}
+
+@font-face {
+  font-family: nasa;
+  src: url(../fonts/nasalization-rg.otf);
+}
+@font-face {
+  font-family: Acme;
+  src: url(../fonts/Acme-Regular.ttf);
+}
+.estilo {
+  font-family: Acme;
+  font-size: 25.5px;
+}
